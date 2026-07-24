@@ -1,0 +1,8 @@
+cpu0: Cpus_allowed_list:0
+cpu1: Cpus_allowed_list:1
+cpu2: Cpus_allowed_list:2
+cpu3: Cpus_allowed_list:3
+cpu4: Cpus_allowed_list:4
+cpu5: Cpus_allowed_list:5
+cpu6: Cpus_allowed_list:6
+cpu7: Cpus_allowed_list:7

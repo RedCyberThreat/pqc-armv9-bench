@@ -1,0 +1,215 @@
+=== DATE ===
+Wed Jul 22 19:45:48 UTC 2026
+=== BUILD PROPS ===
+SM-S911B
+16
+36
+2026-06-05
+kalama
+BP4A.251205.006.S911BXXSAFZF5
+=== KERNEL ===
+Linux localhost 5.15.189-android13-8-33413713-abS911BXXSAFZF5 #1 SMP PREEMPT Tue Jun 9 09:28:15 UTC 2026 aarch64 Android
+=== LSCPU ===
+Architecture:                            aarch64
+CPU op-mode(s):                          32-bit, 64-bit
+Byte Order:                              Little Endian
+CPU(s):                                  8
+On-line CPU(s) list:                     0-7
+Vendor ID:                               ARM
+Model name:                              Cortex-A510
+Model:                                   1
+Thread(s) per core:                      1
+Core(s) per socket:                      3
+Socket(s):                               1
+Stepping:                                r1p1
+Frequency boost:                         enabled
+CPU(s) scaling MHz:                      45%
+CPU max MHz:                             2016.0000
+CPU min MHz:                             307.2000
+BogoMIPS:                                38.40
+Flags:                                   fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 bti
+Model name:                              Cortex-A710
+Model:                                   0
+Thread(s) per core:                      1
+Core(s) per socket:                      2
+Socket(s):                               1
+Stepping:                                r2p0
+CPU(s) scaling MHz:                      100%
+CPU max MHz:                             2803.2000
+CPU min MHz:                             499.2000
+BogoMIPS:                                38.40
+Flags:                                   fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 bti
+Model name:                              Cortex-A715
+Model:                                   0
+Thread(s) per core:                      1
+Core(s) per socket:                      2
+Socket(s):                               1
+Stepping:                                r1p0
+CPU(s) scaling MHz:                      83%
+CPU max MHz:                             2803.2000
+CPU min MHz:                             499.2000
+BogoMIPS:                                38.40
+Flags:                                   fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 bti
+Model name:                              Cortex-X3
+Model:                                   0
+Thread(s) per core:                      1
+Core(s) per socket:                      1
+Socket(s):                               1
+Stepping:                                r1p0
+CPU(s) scaling MHz:                      34%
+CPU max MHz:                             3360.0000
+CPU min MHz:                             595.2000
+BogoMIPS:                                38.40
+Flags:                                   fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 bti
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:                Mitigation; __user pointer sanitization
+Vulnerability Spectre v2:                Vulnerable: Unprivileged eBPF enabled
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+=== CPUFREQ POLICIES ===
+--- /sys/devices/system/cpu/cpufreq/policy0 ---
+related_cpus: 0 1 2
+governor: walt
+min/max (kHz): 307200
+2016000
+--- /sys/devices/system/cpu/cpufreq/policy3 ---
+related_cpus: 3 4 5 6
+governor: walt
+min/max (kHz): 499200
+2803200
+--- /sys/devices/system/cpu/cpufreq/policy7 ---
+related_cpus: 7
+governor: walt
+min/max (kHz): 595200
+3360000
+=== ALLOWED CPUS (this process) ===
+Cpus_allowed:	ff
+Cpus_allowed_list:	0-7
+=== THERMAL (may be restricted) ===
+aoss-0: 38400
+cpuss-0: 41200
+cpu-1-5: 45200
+cpu-1-6: 44400
+cpu-1-7: 44800
+cpu-1-8: 41600
+cpu-1-9: 41200
+cpu-1-10: 40800
+aoss-1: 40600
+cpu-0-0: 44200
+cpu-0-1: 42200
+cpu-0-2: 43400
+cpuss-1: 42400
+nspss-0: 40600
+nspss-1: 40600
+nspss-2: 39400
+nspss-3: 40200
+video: 44600
+ddr: 41800
+mdmss-0: 40200
+mdmss-1: 39800
+mdmss-2: 39800
+mdmss-3: 39800
+cpuss-2: 43600
+camera-0: 40600
+camera-1: 40600
+aoss-2: 40200
+gpuss-0: 39400
+gpuss-1: 38600
+gpuss-2: 39400
+gpuss-3: 39400
+gpuss-4: 40200
+gpuss-5: 41000
+gpuss-6: 39800
+cpuss-3: 45200
+gpuss-7: 39800
+pa: 16513
+pa1: 27000
+bcl_warn: -273000
+sdr0_pa: 0
+sdr0: 0
+sdr1_pa: 0
+sdr1: 0
+mmw0: -273000
+mmw1: -273000
+cpu-1-0: 44800
+mmw2: -273000
+mmw3: -273000
+mmw_pa1: -40000
+mmw_pa2: 27000
+mmw_pa3: 27000
+mmw_ific0: -273000
+epm0: -273000
+epm1: -273000
+epm2: -273000
+epm3: -273000
+cpu-1-1: 42000
+epm4: -273000
+epm5: -273000
+epm6: -273000
+epm7: -273000
+sdr_mmw_therm: 27000
+sub1_modem_cfg: -273000
+sub1_lte_cc: -273000
+sub1_mcg_fr1_cc: -273000
+sub1_mcg_fr2_cc: -273000
+sub1_scg_fr1_cc: -273000
+cpu-1-2: 42000
+sub1_scg_fr2_cc: -273000
+pm8550_tz: 39980
+pm8550-bcl-lvl0: 0
+pm8550-bcl-lvl1: 0
+pm8550-bcl-lvl2: 0
+cpu-1-3: 41600
+socd: 7
+pm8550ve_f_tz: 37505
+pm8550vs_c_tz: 37539
+pm8550vs_d_tz: 37906
+pm8550vs_e_tz: 37305
+pm8550vs_g_tz: 37906
+pmr735d_k_tz: 37000
+cpu-1-4: 44800
+xo-therm: 37916
+ac: 37100
+battery: 35000
+=== BATTERY (needs termux-api) ===
+{
+  "present": true,
+  "technology": "Li-ion",
+  "health": "GOOD",
+  "plugged": "UNPLUGGED",
+  "status": "DISCHARGING",
+  "temperature": 35.7,
+  "voltage": 4212,
+  "current": -860000,
+  "current_average": -397,
+  "percentage": 93,
+  "level": 93,
+  "scale": 100,
+  "charge_counter": 3471585,
+  "energy": null,
+  "cycle": 0
+}
+=== TOOLCHAIN ===
+clang version 21.1.8
+cmake version 4.3.4
+OpenSSL 3.6.3 9 Jun 2026 (Library: OpenSSL 3.6.3 9 Jun 2026)
+built on: Sat Jun 13 16:32:53 2026 UTC
+platform: android-arm64
+options:  bn(64,64)
+compiler: aarch64-linux-android-clang -fPIC -pthread -Wa,--noexecstack -Qunused-arguments -fstack-protector-strong -Oz -DNO_SYSLOG -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DZLIB_SHARED -DNDEBUG  -isystem/data/data/com.termux/files/usr/include/c++/v1 -isystem/data/data/com.termux/files/usr/include
+OPENSSLDIR: "/data/data/com.termux/files/usr/etc/tls"
+ENGINESDIR: "/data/data/com.termux/files/usr/lib/engines-3"
+MODULESDIR: "/data/data/com.termux/files/usr/lib/ossl-modules"
+Seeding source: os-specific
+CPUINFO: OPENSSL_armcap=0xefd

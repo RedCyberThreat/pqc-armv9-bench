@@ -1,0 +1,130 @@
+[cpu5 paused, retry 1]
+[cpu5 paused, retry 2]
+[cpu5 paused, retry 3]
+=== cpu5 run1 ===
+Cpus_allowed_list:	5
+Configuration info
+==================
+Target platform:  aarch64-Android-36
+Compiler:         clang (21.1.8 )
+Compile options:  [-march=armv8-a+crypto;-Wa,--noexecstack;-O3;-fomit-frame-pointer;-Wbad-function-cast;-Wcast-qual;-Wnarrowing;-Wconversion]
+OQS version:      0.15.0 (major: 0, minor: 15, patch: 0)
+Git commit:       04ab195f104aaabe5322bacc526478f5d584920c
+OpenSSL enabled:  No
+AES:              C and ARM CRYPTO extensions
+SHA-2:            C and ARM CRYPTO extensions
+SHA-3:            C
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  AES SHA2 SHA3 NEON
+Speed test
+==========
+Started at 2026-07-23 22:09:20
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | High-prec time (ns): mean | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+ML-KEM-768                           |            |                |                 |            |                           |           
+keygen                               |     138067 |          3.000 |          21.729 |      1.830 |                     21614 |       1764
+encaps                               |     128461 |          3.000 |          23.353 |      1.845 |                     23239 |       1801
+decaps                               |     108953 |          3.000 |          27.535 |      1.878 |                     27421 |       1817
+Ended at 2026-07-23 22:09:29
+=== cpu5 run2 ===
+Cpus_allowed_list:	5
+Configuration info
+==================
+Target platform:  aarch64-Android-36
+Compiler:         clang (21.1.8 )
+Compile options:  [-march=armv8-a+crypto;-Wa,--noexecstack;-O3;-fomit-frame-pointer;-Wbad-function-cast;-Wcast-qual;-Wnarrowing;-Wconversion]
+OQS version:      0.15.0 (major: 0, minor: 15, patch: 0)
+Git commit:       04ab195f104aaabe5322bacc526478f5d584920c
+OpenSSL enabled:  No
+AES:              C and ARM CRYPTO extensions
+SHA-2:            C and ARM CRYPTO extensions
+SHA-3:            C
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  AES SHA2 SHA3 NEON
+Speed test
+==========
+Started at 2026-07-23 22:10:04
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | High-prec time (ns): mean | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+ML-KEM-768                           |            |                |                 |            |                           |           
+keygen                               |     138521 |          3.000 |          21.657 |      2.039 |                     21543 |       1980
+encaps                               |     128454 |          3.000 |          23.355 |      1.625 |                     23240 |       1572
+decaps                               |     109048 |          3.000 |          27.511 |      1.651 |                     27397 |       1583
+Ended at 2026-07-23 22:10:13
+=== cpu5 run3 ===
+Cpus_allowed_list:	5
+Configuration info
+==================
+Target platform:  aarch64-Android-36
+Compiler:         clang (21.1.8 )
+Compile options:  [-march=armv8-a+crypto;-Wa,--noexecstack;-O3;-fomit-frame-pointer;-Wbad-function-cast;-Wcast-qual;-Wnarrowing;-Wconversion]
+OQS version:      0.15.0 (major: 0, minor: 15, patch: 0)
+Git commit:       04ab195f104aaabe5322bacc526478f5d584920c
+OpenSSL enabled:  No
+AES:              C and ARM CRYPTO extensions
+SHA-2:            C and ARM CRYPTO extensions
+SHA-3:            C
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  AES SHA2 SHA3 NEON
+Speed test
+==========
+Started at 2026-07-23 22:10:49
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | High-prec time (ns): mean | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+ML-KEM-768                           |            |                |                 |            |                           |           
+keygen                               |     138330 |          3.000 |          21.687 |      1.685 |                     21573 |       1613
+encaps                               |     128389 |          3.000 |          23.367 |      1.602 |                     23252 |       1547
+decaps                               |     108910 |          3.000 |          27.546 |      1.733 |                     27431 |       1665
+Ended at 2026-07-23 22:10:58
+=== cpu5 run4 ===
+Cpus_allowed_list:	5
+Configuration info
+==================
+Target platform:  aarch64-Android-36
+Compiler:         clang (21.1.8 )
+Compile options:  [-march=armv8-a+crypto;-Wa,--noexecstack;-O3;-fomit-frame-pointer;-Wbad-function-cast;-Wcast-qual;-Wnarrowing;-Wconversion]
+OQS version:      0.15.0 (major: 0, minor: 15, patch: 0)
+Git commit:       04ab195f104aaabe5322bacc526478f5d584920c
+OpenSSL enabled:  No
+AES:              C and ARM CRYPTO extensions
+SHA-2:            C and ARM CRYPTO extensions
+SHA-3:            C
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  AES SHA2 SHA3 NEON
+Speed test
+==========
+Started at 2026-07-23 22:11:33
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | High-prec time (ns): mean | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+ML-KEM-768                           |            |                |                 |            |                           |           
+keygen                               |     138498 |          3.000 |          21.661 |      1.795 |                     21547 |       1726
+encaps                               |     128581 |          3.000 |          23.332 |      1.546 |                     23216 |       1492
+decaps                               |     109048 |          3.000 |          27.511 |      1.644 |                     27396 |       1575
+Ended at 2026-07-23 22:11:42
+[cpu5 paused, retry 1]
+[cpu5 paused, retry 2]
+=== cpu5 run5 ===
+Cpus_allowed_list:	5
+Configuration info
+==================
+Target platform:  aarch64-Android-36
+Compiler:         clang (21.1.8 )
+Compile options:  [-march=armv8-a+crypto;-Wa,--noexecstack;-O3;-fomit-frame-pointer;-Wbad-function-cast;-Wcast-qual;-Wnarrowing;-Wconversion]
+OQS version:      0.15.0 (major: 0, minor: 15, patch: 0)
+Git commit:       04ab195f104aaabe5322bacc526478f5d584920c
+OpenSSL enabled:  No
+AES:              C and ARM CRYPTO extensions
+SHA-2:            C and ARM CRYPTO extensions
+SHA-3:            C
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  AES SHA2 SHA3 NEON
+Speed test
+==========
+Started at 2026-07-23 22:12:23
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | High-prec time (ns): mean | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+ML-KEM-768                           |            |                |                 |            |                           |           
+keygen                               |     134688 |          3.000 |          22.274 |      1.645 |                     22157 |       1591
+encaps                               |     128724 |          3.000 |          23.306 |      1.532 |                     23192 |       1485
+decaps                               |     109131 |          3.000 |          27.490 |      1.672 |                     27375 |       1604
+Ended at 2026-07-23 22:12:32

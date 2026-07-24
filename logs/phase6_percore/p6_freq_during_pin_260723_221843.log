@@ -1,0 +1,4 @@
+cpu0 (policy0): max=2016000 min=2016000 median=2016000
+cpu3 (policy3): max=2803200 min=2803200 median=2803200
+cpu5 (policy3): max=2803200 min=2803200 median=2803200
+cpu7 (policy7): max=3360000 min=3360000 median=3360000

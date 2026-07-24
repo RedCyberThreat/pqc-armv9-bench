@@ -1,0 +1,20 @@
+=== A: after 60s idle (do not touch the phone) ===
+taskset: failed to set pid 10137's affinity: Invalid argument
+=== B: immediately after CPU load ===
+Cpus_allowed_list:	7
+=== C: repeat x10 rapid ===
+run1 OK
+run2 OK
+run3 OK
+run4 OK
+run5 OK
+run6 OK
+run7 OK
+run8 OK
+run9 OK
+run10 OK
+=== online mask (may be denied) ===
+0-7
+
+=== per-cpu activity from /proc/stat ===
+grep: /proc/stat: Permission denied

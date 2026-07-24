@@ -1,0 +1,158 @@
+cache
+core_ctl
+cpu_capacity
+cpufreq
+cpuidle
+dcvsh_freq_limit
+hotplug
+of_node
+online
+power
+regs
+subsystem
+topology
+uevent
+active_cpus
+busy_down_thres
+busy_up_thres
+enable
+global_state
+max_cpus
+min_cpus
+need_cpus
+not_preferred
+nr_prev_assist_thresh
+offline_delay_ms
+task_thres
+1
+30 
+60 
+1
+CPU0
+	CPU: 0
+	Online: 1
+	Paused: 0
+	First CPU: 0
+	Busy%: 28
+	Is busy: 0
+	Not preferred: 0
+	Nr running: 4
+	Active CPUs: 3
+	Need 64 bit CPUs: 3
+	Active 32bit CPUs: 3
+	Need 32bit CPUs: 0
+	Cluster paused CPUs: 0
+	Boost: 0
+CPU1
+	CPU: 1
+	Online: 1
+	Paused: 0
+	First CPU: 0
+	Busy%: 20
+	Is busy: 0
+	Not preferred: 0
+	Nr running: 4
+	Active CPUs: 3
+	Need 64 bit CPUs: 3
+	Active 32bit CPUs: 3
+	Need 32bit CPUs: 0
+	Cluster paused CPUs: 0
+	Boost: 0
+CPU2
+	CPU: 2
+	Online: 1
+	Paused: 0
+	First CPU: 0
+	Busy%: 21
+	Is busy: 0
+	Not preferred: 0
+	Nr running: 4
+	Active CPUs: 3
+	Need 64 bit CPUs: 3
+	Active 32bit CPUs: 3
+	Need 32bit CPUs: 0
+	Cluster paused CPUs: 0
+	Boost: 0
+CPU3
+	CPU: 3
+	Online: 1
+	Paused: 0
+	First CPU: 3
+	Busy%: 96
+	Is busy: 1
+	Not preferred: 0
+	Nr running: 4
+	Active CPUs: 4
+	Need 64 bit CPUs: 4
+	Active 32bit CPUs: 2
+	Need 32bit CPUs: 0
+	Cluster paused CPUs: 0
+	Boost: 0
+CPU4
+	CPU: 4
+	Online: 1
+	Paused: 0
+	First CPU: 3
+	Busy%: 88
+	Is busy: 1
+	Not preferred: 0
+	Nr running: 4
+	Active CPUs: 4
+	Need 64 bit CPUs: 4
+	Active 32bit CPUs: 2
+	Need 32bit CPUs: 0
+	Cluster paused CPUs: 0
+	Boost: 0
+CPU5
+	CPU: 5
+	Online: 1
+	Paused: 0
+	First CPU: 3
+	Busy%: 20
+	Is busy: 0
+	Not preferred: 1
+	Nr running: 4
+	Active CPUs: 4
+	Need 64 bit CPUs: 4
+	Active 32bit CPUs: 2
+	Need 32bit CPUs: 0
+	Cluster paused CPUs: 0
+	Boost: 0
+CPU6
+	CPU: 6
+	Online: 1
+	Paused: 0
+	First CPU: 3
+	Busy%: 92
+	Is busy: 1
+	Not preferred: 1
+	Nr running: 4
+	Active CPUs: 4
+	Need 64 bit CPUs: 4
+	Active 32bit CPUs: 2
+	Need 32bit CPUs: 0
+	Cluster paused CPUs: 0
+	Boost: 0
+CPU7
+	CPU: 7
+	Online: 1
+	Paused: 0
+	First CPU: 7
+	Busy%: 0
+	Is busy: 0
+	Not preferred: 0
+	Nr running: 0
+	Active CPUs: 1
+	Need 64 bit CPUs: 1
+	Active 32bit CPUs: 0
+	Need 32bit CPUs: 0
+	Cluster paused CPUs: 0
+	Boost: 0
+1
+1
+1
+0 
+1
+100
+1
+

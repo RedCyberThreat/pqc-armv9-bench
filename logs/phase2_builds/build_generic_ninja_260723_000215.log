@@ -1,0 +1,5 @@
+[1083/1087] Linking C executable tests/test_sig_stfl
+[1084/1087] Linking C executable tests/speed_sig
+[1085/1087] Linking C executable tests/vectors_sig
+[1086/1087] Linking C executable tests/dump_alg_info
+[1087/1087] Linking C executable tests/vectors_kem

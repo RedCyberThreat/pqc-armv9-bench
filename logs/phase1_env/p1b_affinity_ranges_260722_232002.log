@@ -1,0 +1,12 @@
+--- range 0-7 ---
+Cpus_allowed_list:	0-7
+--- range 6-7 ---
+Cpus_allowed_list:	6-7
+--- range 3-6 ---
+Cpus_allowed_list:	3-6
+--- mask 0x80 ---
+Cpus_allowed_list:	7
+--- cpu7 online ---
+cat: /sys/devices/system/cpu/cpu7/online: Permission denied
+--- policy7 affected ---
+7

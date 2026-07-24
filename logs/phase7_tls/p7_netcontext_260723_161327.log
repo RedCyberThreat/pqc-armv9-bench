@@ -1,0 +1,8 @@
+=== network type ===
+Termux:API is not yet available on Google Play - see https://github.com/termux-play-store/termux-apps/issues/29 for updates
+=== route ===
+Cannot bind netlink socket: Permission denied
+=== ping RTT baseline ===
+--- cloudflare.com ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9024ms
+rtt min/avg/max/mdev = 17.813/30.582/51.414/12.737 ms

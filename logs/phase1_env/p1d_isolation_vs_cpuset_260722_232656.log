@@ -1,0 +1,12 @@
+=== idle 60s, then read state BEFORE attempting pin ===
+--- allowed list right now ---
+Cpus_allowed_list:	0-7
+--- pin cpu7 ---
+taskset: failed to set pid 11530's affinity: Invalid argument
+FAIL7
+--- pin cpu3 (mid cluster) ---
+OK3
+--- pin cpu0 (little) ---
+OK0
+--- allowed list again ---
+Cpus_allowed_list:	0-7

@@ -1,0 +1,23 @@
+Configuration info
+==================
+Target platform:  aarch64-Android-36
+Compiler:         clang (21.1.8 )
+Compile options:  [-march=armv8-a+crypto;-Wa,--noexecstack;-O3;-fomit-frame-pointer;-Wbad-function-cast;-Wcast-qual;-Wnarrowing;-Wconversion]
+OQS version:      0.15.0 (major: 0, minor: 15, patch: 0)
+Git commit:       04ab195f104aaabe5322bacc526478f5d584920c
+OpenSSL enabled:  No
+AES:              C and ARM CRYPTO extensions
+SHA-2:            C and ARM CRYPTO extensions
+SHA-3:            C
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  AES SHA2 SHA3 NEON
+Speed test
+==========
+Started at 2026-07-23 14:33:15
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | High-prec time (ns): mean | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+ML-KEM-1024                          |            |                |                 |            |                           |           
+keygen                               |      96257 |          3.000 |          31.167 |      1.788 |                     31058 |       1739
+encaps                               |     102390 |          3.000 |          29.300 |      2.093 |                     29194 |       2054
+decaps                               |      87602 |          3.000 |          34.246 |      2.895 |                     34137 |       2860
+Ended at 2026-07-23 14:33:24

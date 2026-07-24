@@ -1,0 +1,19 @@
+You have chosen to measure elapsed time instead of user CPU time.
+Doing ML-DSA-44 keygen ops for 3s: 35391 ML-DSA-44 signature keygen ops in 3.00s
+Doing ML-DSA-44 signs ops for 3s: 6059 ML-DSA-44 signature sign ops in 3.00s
+Doing ML-DSA-44 verify ops for 3s: 31647 ML-DSA-44 signature verify ops in 3.00s
+Doing ML-DSA-65 keygen ops for 3s: 19993 ML-DSA-65 signature keygen ops in 3.00s
+Doing ML-DSA-65 signs ops for 3s: 3588 ML-DSA-65 signature sign ops in 3.00s
+Doing ML-DSA-65 verify ops for 3s: 20240 ML-DSA-65 signature verify ops in 3.00s
+Doing ML-DSA-87 keygen ops for 3s: 13092 ML-DSA-87 signature keygen ops in 3.00s
+Doing ML-DSA-87 signs ops for 3s: 3056 ML-DSA-87 signature sign ops in 3.00s
+Doing ML-DSA-87 verify ops for 3s: 12215 ML-DSA-87 signature verify ops in 3.00s
+version: 3.6.3
+built on: Sat Jun 13 16:32:53 2026 UTC
+options: bn(64,64)
+compiler: aarch64-linux-android-clang -fPIC -pthread -Wa,--noexecstack -Qunused-arguments -fstack-protector-strong -Oz -DNO_SYSLOG -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DZLIB_SHARED -DNDEBUG  -isystem/data/data/com.termux/files/usr/include/c++/v1 -isystem/data/data/com.termux/files/usr/include
+CPUINFO: OPENSSL_armcap=0xefd
+                               keygen     signs    verify keygens/s    sign/s  verify/s
+                  ML-DSA-44 0.000085s 0.000495s 0.000095s   11797.0    2019.7   10549.0
+                  ML-DSA-65 0.000150s 0.000836s 0.000148s    6664.3    1196.0    6746.7
+                  ML-DSA-87 0.000229s 0.000982s 0.000246s    4364.0    1018.7    4071.7

@@ -1,0 +1,12 @@
+/data/data/com.termux/files/usr/bin/bash: line 83: /tmp/f0.txt: Permission denied
+sort: cannot read: /tmp/f0.txt: No such file or directory
+sort: cannot read: /tmp/f0.txt: No such file or directory
+cpu0 (policy0) freq samples during pinned run:  max,  min
+/data/data/com.termux/files/usr/bin/bash: line 83: /tmp/f3.txt: Permission denied
+sort: cannot read: /tmp/f3.txt: No such file or directory
+sort: cannot read: /tmp/f3.txt: No such file or directory
+cpu3 (policy3) freq samples during pinned run:  max,  min
+/data/data/com.termux/files/usr/bin/bash: line 83: /tmp/f7.txt: Permission denied
+sort: cannot read: /tmp/f7.txt: No such file or directory
+sort: cannot read: /tmp/f7.txt: No such file or directory
+cpu7 (policy7) freq samples during pinned run:  max,  min

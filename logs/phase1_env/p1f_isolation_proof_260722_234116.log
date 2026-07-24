@@ -1,0 +1,15 @@
+=== idling 90s — do not touch the phone ===
+--- state captured BEFORE pin attempt ---
+23:42:46.132
+isolated: []
+active_cpus: 0
+policy7 freq: 864000
+	Online: 1
+	Paused: 1
+	Busy%: 0
+--- pin attempt ---
+taskset: failed to set pid 14738's affinity: Invalid argument
+RESULT: FAIL
+--- state captured AFTER ---
+	Online: 1
+	Paused: 1

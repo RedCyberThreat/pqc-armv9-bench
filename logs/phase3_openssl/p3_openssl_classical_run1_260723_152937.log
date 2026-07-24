@@ -1,0 +1,19 @@
+You have chosen to measure elapsed time instead of user CPU time.
+Doing 256 bits sign ecdsa ops for 10s: 562437 256 bits ECDSA sign ops in 10.00s
+Doing 256 bits verify ecdsa ops for 10s: 180165 256 bits ECDSA verify ops in 10.00s
+Doing 256 bits  ecdh ops for 10s: 234184 256-bits ECDH ops in 10.00s
+Doing 253 bits  ecdh ops for 10s: 267344 253-bits ECDH ops in 10.00s
+Doing 253 bits sign Ed25519 ops for 10s: 288727 253 bits Ed25519 sign ops in 10.00s 
+Doing 253 bits verify Ed25519 ops for 10s: 110920 253 bits Ed25519 verify ops in 10.00s
+version: 3.6.3
+built on: Sat Jun 13 16:32:53 2026 UTC
+options: bn(64,64)
+compiler: aarch64-linux-android-clang -fPIC -pthread -Wa,--noexecstack -Qunused-arguments -fstack-protector-strong -Oz -DNO_SYSLOG -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DZLIB_SHARED -DNDEBUG  -isystem/data/data/com.termux/files/usr/include/c++/v1 -isystem/data/data/com.termux/files/usr/include
+CPUINFO: OPENSSL_armcap=0xefd
+                              sign    verify    sign/s verify/s
+ 256 bits ecdsa (nistp256)   0.0000s   0.0001s  56243.7  18016.5
+                              op      op/s
+ 256 bits ecdh (nistp256)   0.0000s  23418.4
+ 253 bits ecdh (X25519)   0.0000s  26734.4
+                              sign    verify    sign/s verify/s
+ 253 bits EdDSA (Ed25519)   0.0000s   0.0001s  28872.7  11092.0

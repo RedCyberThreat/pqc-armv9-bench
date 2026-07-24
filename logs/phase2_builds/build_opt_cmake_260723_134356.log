@@ -1,0 +1,38 @@
+-- The C compiler identification is Clang 21.1.8
+-- The ASM compiler identification is Clang with GNU-like command-line
+-- Found assembler: /data/data/com.termux/files/usr/bin/cc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /data/data/com.termux/files/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Performing Test CC_SUPPORTS_WA_NOEXECSTACK
+-- Performing Test CC_SUPPORTS_WA_NOEXECSTACK - Success
+-- Performing Test LD_SUPPORTS_WL_Z_NOEXECSTACK
+-- Performing Test LD_SUPPORTS_WL_Z_NOEXECSTACK - Success
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE
+-- Alg enablement unchanged
+-- Looking for getentropy
+-- Looking for getentropy - found
+-- Looking for getentropy
+-- Looking for getentropy - found
+-- Looking for aligned_alloc
+-- Looking for aligned_alloc - found
+-- Looking for posix_memalign
+-- Looking for posix_memalign - found
+-- Looking for memalign
+-- Looking for memalign - found
+-- Looking for explicit_bzero
+-- Looking for explicit_bzero - not found
+-- Looking for explicit_memset
+-- Looking for explicit_memset - not found
+-- Looking for memset_s
+-- Looking for memset_s - not found
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done (4.0s)
+-- Generating done (0.2s)
+-- Build files have been written to: /data/data/com.termux/files/home/liboqs/build-opt

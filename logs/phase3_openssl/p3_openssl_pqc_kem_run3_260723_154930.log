@@ -1,0 +1,19 @@
+You have chosen to measure elapsed time instead of user CPU time.
+Doing ML-KEM-512 keygen ops for 3s: 128791 ML-KEM-512 KEM keygen ops in 3.00s
+Doing ML-KEM-512 encaps ops for 3s: 155288 ML-KEM-512 KEM encaps ops in 3.00s
+Doing ML-KEM-512 decaps ops for 3s: 98256 ML-KEM-512 KEM decaps ops in 3.00s
+Doing ML-KEM-768 keygen ops for 3s: 78466 ML-KEM-768 KEM keygen ops in 3.00s
+Doing ML-KEM-768 encaps ops for 3s: 105389 ML-KEM-768 KEM encaps ops in 3.00s
+Doing ML-KEM-768 decaps ops for 3s: 69013 ML-KEM-768 KEM decaps ops in 3.00s
+Doing ML-KEM-1024 keygen ops for 3s: 52318 ML-KEM-1024 KEM keygen ops in 3.00s
+Doing ML-KEM-1024 encaps ops for 3s: 77461 ML-KEM-1024 KEM encaps ops in 3.00s
+Doing ML-KEM-1024 decaps ops for 3s: 51694 ML-KEM-1024 KEM decaps ops in 3.00s
+version: 3.6.3
+built on: Sat Jun 13 16:32:53 2026 UTC
+options: bn(64,64)
+compiler: aarch64-linux-android-clang -fPIC -pthread -Wa,--noexecstack -Qunused-arguments -fstack-protector-strong -Oz -DNO_SYSLOG -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DZLIB_SHARED -DNDEBUG  -isystem/data/data/com.termux/files/usr/include/c++/v1 -isystem/data/data/com.termux/files/usr/include
+CPUINFO: OPENSSL_armcap=0xefd
+                               keygen    encaps    decaps keygens/s  encaps/s  decaps/s
+                 ML-KEM-512 0.000023s 0.000019s 0.000031s   42930.3   51762.7   32752.0
+                 ML-KEM-768 0.000038s 0.000028s 0.000043s   26155.3   35129.7   23004.3
+                ML-KEM-1024 0.000057s 0.000039s 0.000058s   17439.3   25820.3   17231.3
