@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "Benchmarking NIST Post-Quantum Cryptographic Standards on ARMv9-A Mobile Architectures"
+authors:
+  - family-names: Vignoli
+    given-names: Mauro
+date-released: 2026-07-26
+version: "1.0"
+repository-code: "https://github.com/RedCyberThreat/pqc-armv9-bench"
+keywords:
+  - post-quantum cryptography
+  - ML-KEM
+  - ML-DSA
+  - ARMv9-A
+  - Android
+  - benchmarking
+  - TLS 1.3
+  - liboqs
+license: MIT
