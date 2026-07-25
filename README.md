@@ -37,7 +37,7 @@ Four claims of the project's own pilot study were falsified by this controlled r
 PROTOCOL.md      Supervised runbook: 8 phases with STOP checkpoints, exact commands
 RESULTS.md       Full phase-by-phase results and interpretation
 DEVIATIONS.md    Pilot campaign vs final campaign: what changed and why
-thesis/          Dissertation source (Markdown) and figures
+thesis/          Dissertation source (Markdown) and figures N.B. thesis/ — dissertation source; added after defence (2026)
 logs/            Raw, unedited terminal logs, one file per run (the evidence)
 data/            Transcribed per-run datasets (CSV)
 scripts/         On-device measurement scripts (Termux bash)
