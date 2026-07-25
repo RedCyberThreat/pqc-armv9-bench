@@ -4,6 +4,8 @@ Measured performance of **ML-KEM (FIPS 203)** and **ML-DSA (FIPS 204)** on a pro
 
 This repository is the complete evidence chain for the BSc dissertation of the same title: every value in the thesis is traceable to a timestamped raw log in `logs/`, and every table and figure regenerates from `data/` via the scripts in `analysis/`.
 
+The dissertation manuscript will be published here after defence. All measurements, protocols, and analysis are complete and available now.
+
 ## Headline results
 
 | Finding | Measurement |
