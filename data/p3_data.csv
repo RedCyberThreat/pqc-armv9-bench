@@ -1,0 +1,121 @@
+source,alg,op,run,ops_per_s
+openssl,ECDSA P-256,sign,1,56243.7
+openssl,ECDSA P-256,sign,2,56851.8
+openssl,ECDSA P-256,sign,3,57035.0
+openssl,ECDSA P-256,sign,4,52668.3
+openssl,ECDSA P-256,sign,5,56803.5
+openssl,ECDSA P-256,verify,1,18016.5
+openssl,ECDSA P-256,verify,2,18055.5
+openssl,ECDSA P-256,verify,3,18047.2
+openssl,ECDSA P-256,verify,4,17714.1
+openssl,ECDSA P-256,verify,5,18043.0
+openssl,ECDH P-256,derive,1,23418.4
+openssl,ECDH P-256,derive,2,23411.3
+openssl,ECDH P-256,derive,3,23378.2
+openssl,ECDH P-256,derive,4,23092.6
+openssl,ECDH P-256,derive,5,23211.8
+openssl,X25519,derive,1,26734.4
+openssl,X25519,derive,2,26585.7
+openssl,X25519,derive,3,26794.8
+openssl,X25519,derive,4,26568.7
+openssl,X25519,derive,5,26726.9
+openssl,Ed25519,sign,1,28872.7
+openssl,Ed25519,sign,2,28602.1
+openssl,Ed25519,sign,3,28730.5
+openssl,Ed25519,sign,4,28481.1
+openssl,Ed25519,sign,5,28562.8
+openssl,Ed25519,verify,1,11092.0
+openssl,Ed25519,verify,2,11386.7
+openssl,Ed25519,verify,3,11466.1
+openssl,Ed25519,verify,4,11275.5
+openssl,Ed25519,verify,5,11110.5
+openssl,ML-KEM-512,keygen,1,42382.0
+openssl,ML-KEM-512,keygen,2,43422.3
+openssl,ML-KEM-512,keygen,3,42930.3
+openssl,ML-KEM-512,keygen,4,43130.7
+openssl,ML-KEM-512,keygen,5,43270.3
+openssl,ML-KEM-512,encaps,1,51738.7
+openssl,ML-KEM-512,encaps,2,51786.7
+openssl,ML-KEM-512,encaps,3,51762.7
+openssl,ML-KEM-512,encaps,4,51434.0
+openssl,ML-KEM-512,encaps,5,51485.7
+openssl,ML-KEM-512,decaps,1,32224.3
+openssl,ML-KEM-512,decaps,2,32321.7
+openssl,ML-KEM-512,decaps,3,32752.0
+openssl,ML-KEM-512,decaps,4,32656.0
+openssl,ML-KEM-512,decaps,5,32663.7
+openssl,ML-KEM-768,keygen,1,26045.0
+openssl,ML-KEM-768,keygen,2,25803.7
+openssl,ML-KEM-768,keygen,3,26155.3
+openssl,ML-KEM-768,keygen,4,26132.0
+openssl,ML-KEM-768,keygen,5,26123.3
+openssl,ML-KEM-768,encaps,1,35165.7
+openssl,ML-KEM-768,encaps,2,35271.0
+openssl,ML-KEM-768,encaps,3,35129.7
+openssl,ML-KEM-768,encaps,4,35140.3
+openssl,ML-KEM-768,encaps,5,35075.7
+openssl,ML-KEM-768,decaps,1,22929.0
+openssl,ML-KEM-768,decaps,2,23065.7
+openssl,ML-KEM-768,decaps,3,23004.3
+openssl,ML-KEM-768,decaps,4,22922.0
+openssl,ML-KEM-768,decaps,5,22942.0
+openssl,ML-KEM-1024,keygen,1,17499.3
+openssl,ML-KEM-1024,keygen,2,17533.3
+openssl,ML-KEM-1024,keygen,3,17439.3
+openssl,ML-KEM-1024,keygen,4,17384.7
+openssl,ML-KEM-1024,keygen,5,17389.0
+openssl,ML-KEM-1024,encaps,1,25979.3
+openssl,ML-KEM-1024,encaps,2,25877.0
+openssl,ML-KEM-1024,encaps,3,25820.3
+openssl,ML-KEM-1024,encaps,4,25764.7
+openssl,ML-KEM-1024,encaps,5,25730.0
+openssl,ML-KEM-1024,decaps,1,17335.3
+openssl,ML-KEM-1024,decaps,2,17330.0
+openssl,ML-KEM-1024,decaps,3,17231.3
+openssl,ML-KEM-1024,decaps,4,17156.3
+openssl,ML-KEM-1024,decaps,5,17142.7
+openssl,ML-DSA-44,keygen,1,11797.0
+openssl,ML-DSA-44,keygen,2,11880.0
+openssl,ML-DSA-44,keygen,3,11828.0
+openssl,ML-DSA-44,keygen,4,11750.3
+openssl,ML-DSA-44,keygen,5,11639.3
+openssl,ML-DSA-44,sign,1,2019.7
+openssl,ML-DSA-44,sign,2,2052.3
+openssl,ML-DSA-44,sign,3,2034.3
+openssl,ML-DSA-44,sign,4,2010.7
+openssl,ML-DSA-44,sign,5,1963.7
+openssl,ML-DSA-44,verify,1,10549.0
+openssl,ML-DSA-44,verify,2,10544.0
+openssl,ML-DSA-44,verify,3,10512.3
+openssl,ML-DSA-44,verify,4,10453.7
+openssl,ML-DSA-44,verify,5,10403.7
+openssl,ML-DSA-65,keygen,1,6664.3
+openssl,ML-DSA-65,keygen,2,6654.0
+openssl,ML-DSA-65,keygen,3,6642.7
+openssl,ML-DSA-65,keygen,4,6616.7
+openssl,ML-DSA-65,keygen,5,6598.7
+openssl,ML-DSA-65,sign,1,1196.0
+openssl,ML-DSA-65,sign,2,1181.3
+openssl,ML-DSA-65,sign,3,1157.7
+openssl,ML-DSA-65,sign,4,1181.3
+openssl,ML-DSA-65,sign,5,1177.7
+openssl,ML-DSA-65,verify,1,6746.7
+openssl,ML-DSA-65,verify,2,6723.3
+openssl,ML-DSA-65,verify,3,6701.0
+openssl,ML-DSA-65,verify,4,6683.0
+openssl,ML-DSA-65,verify,5,6684.0
+openssl,ML-DSA-87,keygen,1,4364.0
+openssl,ML-DSA-87,keygen,2,4360.0
+openssl,ML-DSA-87,keygen,3,4303.0
+openssl,ML-DSA-87,keygen,4,4289.7
+openssl,ML-DSA-87,keygen,5,4340.7
+openssl,ML-DSA-87,sign,1,1018.7
+openssl,ML-DSA-87,sign,2,1004.3
+openssl,ML-DSA-87,sign,3,1010.0
+openssl,ML-DSA-87,sign,4,1024.3
+openssl,ML-DSA-87,sign,5,995.7
+openssl,ML-DSA-87,verify,1,4071.7
+openssl,ML-DSA-87,verify,2,4066.3
+openssl,ML-DSA-87,verify,3,4047.7
+openssl,ML-DSA-87,verify,4,4041.3
+openssl,ML-DSA-87,verify,5,4051.7
